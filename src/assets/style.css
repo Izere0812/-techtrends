@@ -245,4 +245,71 @@
       opacity: 1;
     }
   }
-  
+  /* Footer Styling */
+/* Sticky Footer Setup */
+html, body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure main content takes available height */
+.main-content {
+  flex: 1;
+}
+
+/* Footer Styling */
+.site-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 20px 0;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+  margin-top: auto;
+}
+
+.site-footer a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #fff;
+}
+/* Footer Icons */
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00aaff;
+}
+
+/* Scroll to Top Button */
+.scroll-top-btn {
+  margin-top: 10px;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-top-btn:hover {
+  background-color: #0077cc;
+  transform: scale(1.1);
+}
